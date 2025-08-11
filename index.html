@@ -1,0 +1,902 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Breaking Barriers to Incorporating Phylogenetics in Ecology</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<img src="images/circular_tree_82.png" alt="Logo">
+						  </div>
+						<div class="content">
+							<div class="inner">
+								<h1>Breaking Barriers to Incorporating Phylogenetics in Ecology</h1>
+								<p>A special session at ESA 2025 providing a guide for integrating phylogenetics into ecological research</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#foundation">Foundational Applications</a></li>
+								<li><a href="#work">Modern Applications & Code</a></li>
+								<li><a href="#about">Resources</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+
+							</ul>
+						</nav>
+
+
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Motivations</h2>
+								<!--<span class="image main"><img src="images/pic01.jpg" alt="" /></span>  -->
+								<p> Phylogenetics is a rapidly developing field, offering powerful tools for eco-evolutionary inference. Yet, the diversity and pace of which the field has advanced, technical requirements, and data formatting requirements have lead to a steep learning curve and difficulty knowing what approaches to use, how to apply them, and how to interpret their results, especially in ecology <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12533" target="_blank" rel="noopener noreferrer">(Cooper 2016)</a>. <br> <br>
+
+								Drawing on the expertise of leading developers, advanced users, and pioneers, this session explores foundational and cutting-edge phylogenetic methods in ecology, providing practical guidance for their application and inspiring new eco-evolutionary questions. <br><br>
+
+								By the end of this session, participants will be familiar with suggested methods of phylogenetic analysis in ecological studies and understand when and how to apply these approaches in their own research. <br> <br>
+									
+								For more information continue reading or check out <a href="#foundation">foundational</a> or <a href="#work">modern</a> applications.</p>
+
+								<figure class="image main">
+									<img src="images/R_packages_phylo_methods.jpg" alt="Relationship between number of R packages published regarding phylogenetic methods and year" />
+									<figcaption>The cumulative total number of R packages for phylogenetics and phylogenetic comparative methods through time from 1980 to 2014 <a href="https://cran.r-project.org/web/views/Phylogenetics.html" target="_blank" rel="noopener noreferrer">(Brian O'Meara's 'CRAN TASK VIEW: Phylogenetics, Especially Comparative Methods')</a>.</figcaption>
+								  </figure>
+
+								  <h2 class="major">Speakers</h2>
+								  <span class="image main"><img class="speaker-img" src="images/Nytko.png" alt="" /></span>
+								  <h3>Session Organizer & Moderator - Alivia Nytko</h3>
+								  <p>Alivia Nytko is a Ph.D. candidate in the Bailey and O'Meara labs at the University of Tennessee interested in theoretical ecology, eco-evolutionary dynamics, phylogenetics, and computational biology. Her research is focused on developing new frameworks for understanding the ecology and evolution of rare speices and new theory using rarity as a tool to characterize biodiversity-ecosystem function relationships.</p>
+
+								  <div style="text-align: center;">
+									<a href="https://anytko.github.io/" target="_blank" class="lab-button">Personal Website</a>
+								  </div>
+
+								  <span class="image main"><img class="speaker-img" src="images/Roman_Palacios.png" alt="" /></span>
+								  <h3>Speaker: Foundational Approaches - Cristian Román-Palacios</h3>
+								  <p>Cristian Román-Palacios is a biologist with expertise in phylogenetics, biostatistics, and machine learning. He has published more than 25 papers (on a range of topics, many first-authored). His research has been featured in Science news, Popular Science, CNN, USA Today, among many other news outlets. Cristian primarily studies large-scale biodiversity patterns from an Eco/Evo perspective and examines the effects of climate change on species survival. He also develops statistical tools to increase accessibility and reproducibility in evolutionary biology and the geosciences.</p>
+
+								  <div style="text-align: center;">
+									<a href="https://datadiversitylab.github.io/" target="_blank" class="lab-button">Data Diversity Lab</a>
+								  </div>
+								  
+								  <span class="image main"><img class="speaker-img" src="images/Beaulieu.jpeg" alt="" /></span>
+								  <h3>Speaker: Modern Approaches & Code - Jeremy Beaulieu</h3>
+								  <p>Jeremy Beaulieu's research is mainly focused on developing new approaches to large tree construction and new phylogenetic comparative methods to gain insights into the evolution of the large flowering plant clades (most notably, campanulid angiosperms). By combining biogeographic history with morphological character information he hopes to better understand patterns of lineage diversification and its consequences on the distribution of biodiversity.</p>
+								  <div style="text-align: center;">
+									<a href="https://www.jeremybeaulieu.org/" target="_blank" class="lab-button">Beaulieu Lab</a>
+								  </div>
+
+								  <span class="image main"><img class="speaker-img" src="images/Russo.png" alt="" /></span>
+								  <h3>Panelist - Laura Russo</h3>
+								  <p>Dr. Russo is currently an Assistant Professor at the University of Tennessee, in Knoxville, in the Ecology and Evolutionary Biology Department. Members of the Russo lab are interested broadly on the structure, management, and function of mutualistic interactions in a variety of systems, especially focusing on the biodiversity and conservation of plant-pollinator interactions. We use both empirical and theoretical methods to develop and test hypotheses on the structure of interactions in ecological communities. Within this broad scope, major themes include pollinator conservation and health, drivers and consequences of mutualistic interactions, impacts of species addition on plant-pollinator mutualisms, and experimentally manipulating network structure.</p>
+								  <div style="text-align: center;">
+									<a href="https://drlaurarusso.weebly.com/" target="_blank" class="lab-button">Russo Lab</a>
+								  </div>
+
+							</article>
+
+
+							<article id="foundation">
+								<h2 class="major">Foundational Applications</h2>
+								<div style="margin-top: 20px;">
+									<iframe src="ESA2025_RomanPalacios.pdf" 
+											width="100%" height="500px" 
+											style="border: 1px solid #ccc; border-radius: 8px;">
+									</iframe>
+								  </div>
+								<br>
+								  <div class="download-container">
+									<a href="ESA2025_RomanPalacios.pdf" download class="lab-button">
+										Download Slides
+									</a>
+								</div>
+								<br>
+
+								<h3>Non-independence, trait conservatism, and community phylogenetics.</h3> 
+								<p>
+									All historical, foundational, and cutting-edge phylogenetic methods require a phylogeny. Historically, assembling phylogenies for specific study systems was difficult due to scattered sequence data and a lack of published trees. However, more comprehensive, programmatically accessible phylogenies are now available for many major taxonomic groups.
+								  </p>
+								  
+								  <ul>
+									<li><a href="https://bsapubs.onlinelibrary.wiley.com/doi/10.1002/ajb2.1019" target="_blank" rel="noopener noreferrer">Angiosperms</a></li>
+									<li><a href="https://birdtree.org/" target="_blank" rel="noopener noreferrer">Birds</a></li>
+									<li><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000494" target="_blank" rel="noopener noreferrer">Mammals</a></li>
+								  </ul>
+								  
+								  <details>
+									<summary><strong>Example Phylogeny Cleaning Pipeline in R</strong></summary>
+									<button onclick="copyCode(this)" style="margin:0.5rem 0;">Copy code</button>
+									<div style="
+									color: white; 
+									background-color: rgba(0,0,0,0.7); 
+									padding: 0.5rem 1rem;      
+									border: 1px solid #ccc; 
+									border-radius: 6px; 
+									font-family: 'Courier New', monospace; 
+									font-size: 0.9rem; 
+									line-height: 1.2;           
+									white-space: pre-wrap; 
+									overflow-x: auto;
+								  ">library(ape)
+								  library(phytools)
+								  
+								  clean_phylo <- function(tree, species_vector, outgroup = NULL, ultrametric_method = c("chronos", "extend")) {
+									ultrametric_method <- match.arg(ultrametric_method)
+								  
+									# 1. Root tree if not rooted
+									if (!is.rooted(tree)) {
+									  if (is.null(outgroup)) {
+										warning("Tree is unrooted and no outgroup provided. Using midpoint rooting.")
+										tree <- midpoint.root(tree)
+									  } else {
+										tree <- root(tree, outgroup = outgroup, resolve.root = TRUE)
+										message("Tree rooted using outgroup: ", outgroup)
+									  }
+									} else {
+									  message("Tree is already rooted.")
+									}
+								  
+									# 2. Force ultrametric if necessary
+									if (!is.ultrametric(tree)) {
+									  message("Tree is not ultrametric. Forcing ultrametric using method: ", ultrametric_method)
+									  if (ultrametric_method == "chronos") {
+										tree <- chronos(tree)
+									  } else if (ultrametric_method == "extend") {
+										tree <- force.ultrametric(tree, method = "extend")
+									  }
+									} else {
+									  message("Tree is already ultrametric.")
+									}
+								  
+									# 3. Prune tree to species of choice
+									tips_to_drop <- setdiff(tree$tip.label, species_vector)
+									if (length(tips_to_drop) > 0) {
+									  message(length(tips_to_drop), " tips not in species vector will be dropped.")
+									  tree <- drop.tip(tree, tips_to_drop)
+									} else {
+									  message("All species in species_vector are present in the tree.")
+									}
+								  
+									# 4. Check for zero-length branches and replace with small positive number
+									zero_branches <- which(tree$edge.length == 0)
+									if (length(zero_branches) > 0) {
+									  message("Zero-length branches found: ", length(zero_branches), ". Replacing with small positive length.")
+									  tree$edge.length[zero_branches] <- 1e-8
+									} else {
+									  message("No zero-length branches found.")
+									}
+								  
+									# 5. Resolve polytomies if necessary
+									if (any(tree$edge[, 2] %in% which(tabulate(tree$edge[,1]) > 2))) {
+									  message("Polytomies detected. Resolving randomly.")
+									  tree <- multi2di(tree)
+									} else {
+									  message("No polytomies detected.")
+									}
+								  
+									return(tree)
+								  }</div>
+								  </details>
+								  <br>
+								  
+								
+								  <p>
+									Jump to <a href="#limitations">Limitations of the Standard Phylogenetic Workflow for Ecological Inference</a>
+								  </p>
+								  
+							  
+								<!-- New flex container for timeline + paragraphs -->
+								<div style="display: flex; gap: 40px; align-items: flex-start; margin-top: 2em;">
+							  
+								  <!-- Timeline left column -->
+								  <div style="border-left: 3px solid #ccc; padding-left: 15px; min-width: 120px; font-family: sans-serif; color: #555;">
+									<div style="margin-bottom: 90.25em;">
+									  <strong>1985</strong><br>
+									  Phylogenetic Independent Contrasts Introduced<br>
+									</div>
+									<div style="margin-bottom: 95.2em;">
+										<strong>1989</strong><br>
+										Phylogenetic Generalized Least Squares Introduced<br>
+									  </div>
+									<div style="margin-bottom: 87.5em;">
+									  <strong>1999</strong><br>
+									  Trait Conservatism & the Rise of Phylogenetic Signal
+									</div>
+									<div style="margin-bottom: 3em;">
+									  <strong>2000s</strong><br>
+									  Community Phylogenetics<br>Popularized
+									</div>
+								  </div>
+							  
+								  <!-- Paragraphs right column -->
+								  <div style="max-width: 700px;">
+									<h3><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-102221-050754#f1" target="_blank" rel="noopener noreferrer">Non-Independence</a></h3>
+									<p>
+										<strong>Phylogenetic Independent Contrasts (PIC)</strong> were first popularized by <a href="https://www.journals.uchicago.edu/doi/10.1086/284325" target="_blank" rel="noopener noreferrer">Felsenstein (1985)</a> to account for shared evolutionary history between species restuling in trait similarities inherited from the same ancestor. Before PIC, correlations between species traits were often analyzed with simple regressions that ignored the non-independence of related species.  
+										PIC requires a phylogeny and a model of evolutionary change, typically Brownian Motion (BM).  
+										<strong>Brownian Motion</strong> is an evolutionary model often described as a "random walk," where species traits change incrementally with variance proportional to branch length. In PIC, BM serves as the null model, assuming trait differences are independent and equally distributed.  
+										To remove the effect of shared ancestry, PIC calculates standardized differences (contrasts) between closely related species from the tips toward the root, scaled by expected variance under BM. <br>
+
+										<figure class="image main">
+											<img src="images/PIC_ex.png" alt="Utility of PIC in examining trait correlatinos" />
+											<figcaption>
+												Analysis of correlations among leaf traits using raw data and independent contrasts. The incorporation of phylogenetic non-independence changes the strength and significance of these relationships, such that the apparent negative relationship between leaf size and life span is likely due to shared evolutionary history between species <a href="https://academic.oup.com/bioscience/article/50/11/979/219761" target="_blank" rel="noopener noreferrer">(Ackerly et al. 2000)</a>.</figcaption>
+										  </figure>
+
+										  <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; max-width: 600px;">
+											<thead>
+											  <tr>
+												<th style="background-color: #f2f2f2; color: #000000; font-size: 1em; text-align: center; vertical-align: middle;">
+												  Pros
+												  <th style="background-color: #f2f2f2; color: #000000; font-size: 1em; text-align: center; vertical-align: middle;">
+													<strong>
+														<a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13680" 
+														target="_blank" rel="noopener noreferrer" 
+														style="color: black;">
+													   Cons
+													 </a>
+													  </strong>
+												  </th>
+											  </tr>
+											</thead>
+											<tbody>
+											  <tr>
+												<td>Helped redefine many ecological and evolutionary relationships by revealing true trait associations.</td>
+												<td>Designed for continuous traits; cannot be used with categorical traits.</td>
+											  </tr>
+											  <tr>
+												<td>Provides statistically valid tests of trait correlations and evolutionary hypotheses.</td>
+												<td>Assumes a Brownian Motion model of evolution.</td>
+											  </tr>
+											  <tr>
+												<td>Foundation for many later phylogenetic comparative methods.</td>
+												<td>Requires a fully resolved phylogeny with branch lengths.</td>
+											  </tr>
+											  <tr>
+												<td></td>
+												<td>Can fail to identify <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1420-9101.2004.00697.x" target="_blank" rel="noopener noreferrer">non-linear relationships</a>.</td>
+											  </tr>
+											</tbody>
+										  </table>
+										  
+
+									</p>
+							  
+									<p> <strong>Phylogenetic Generalized Least Squares (PGLS)</strong> was first introduced by <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.1989.0106" target="_blank" rel="noopener noreferrer">Grafen (1989)</a> and grew from the same foundation as PIC. Instead of fitting independent contrasts manually before statistical analyses, PGLS fits the regression with raw data, but a phylogenetic covariance matrix in the error, dependent on the model of evolution being used (e.g. BM, Ornstein-Uhlenbeck (OU), etc). In short, PGLS examines the effect of one variable on another while accounting for phylogenetic relatedness.</p>
+
+									<figure class="image main" id = "building_matrix">
+										<img src="images/building_matrix.png" alt="Utility of PIC in examining trait correlatinos" />
+										<figcaption>
+											Example of how a phylogenetic covariance matrix is generated under Brownian Motion <a href="https://www.researchgate.net/publication/346554673_Mathematics_of_evolution_statistical_modeling_in_Phylogenetic_Comparative_Methods" target="_blank" rel="noopener noreferrer">(Lozano 2020)</a>.</figcaption>
+									  </figure>
+							  
+									<p>Similar to Brownian Motion, OU models of evolution also represent a random or stochasic walk, but with stabilizing selection acting as a pull towards an optimal trait value. OU models generate covariances that decay with phylo phylogenetic distance depending on the strength of this pull. The model of evolution used in PGLS can significantly impact phylogenetic comparative analyses. PIC is equivalent to a PGLS using Brownian Motion, but once the stabilizing pull is >0, the methods are not equilivant.
+
+									
+									<figure class="image main">
+										<img src="images/covariance_matrices_BM_OU.png" alt="Differences in phylogenetic covariance matricies using an underlying Brownian Motion and Ornstein-Uhlenbeck model of evolution." />
+										<figcaption>
+											Differences in phylogenetic covariance matricies generated under BM and OU models of trait evolution for the same phylogeny.</figcaption>
+									  </figure>
+									  
+									  Phylogenetic linear regressions have become more accessible and versatile with the development of the R package <a href="https://cran.r-project.org/web/packages/phylolm/index.html" target="_blank" rel="noopener noreferrer"><i>phylolm</i></a>, which implements <strong>Phylogenetic Generalized Linear Models</strong> capable of handling larger phylogenies and a wider range of evolutionary and response models
+									  <br>
+
+									  <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; max-width: 600px;">
+										<thead>
+										  <tr>
+											<th style="background-color: #f2f2f2; color: #000000; font-size: 1em; text-align: center; vertical-align: middle;">
+											  Pros
+											  <th style="background-color: #f2f2f2; color: #000000; font-size: 1em; text-align: center; vertical-align: middle;">
+												<strong>
+													<a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13680" 
+													target="_blank" rel="noopener noreferrer" 
+													style="color: black;">
+												   Cons
+												 </a>
+												  </strong>
+											  </th>
+										  </tr>
+										</thead>
+										<tbody>
+										  <tr>
+											<td>Flexible to different models of trait evolution.</td>
+											<td>Designed for continuous traits; cannot be used with categorical traits.</td>
+										  </tr>
+										  <tr>
+											<td>Handles multiple predictor variables.</td>
+											<td>Does not quantify how strongly traits are conserved.</td>
+										  </tr>
+										</tbody>
+									  </table>
+
+									<h3>Trait Conservatism</h3>
+									<p>Accounting for phylogenetic relatedness or shared evolutionary history shaping traits is different than measuring the <i>amount</i> of phylogenetic non-independence.</p>
+									<p>
+										Many traits demonstrate a <strong>phylogenetic signal</strong>, such that closely related species have more similar trait values than would be expected by chance. Popular measures of phylogenetic signal include Pagel's lambda and Blomberg's K.
+									  </p>
+									  
+									  <ul>
+										<li>
+											<a href="https://www.nature.com/articles/44766" target="_blank" rel="noopener noreferrer">
+											  Pagel's lambda
+											</a> modifies the phylogeny's branch lengths to test whether traits follow a BM-like pattern. When λ = 1, traits follow BM and exhibit strong phylogenetic signal (high phylogenetic conservatism).
+											<ul>
+											  <li>
+												Pagel's lambda is robust to tree topology and branch length inaccuracies <a href="https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-017-0898-y?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">
+													(Molina-Venegas et al. 2017)
+												  </a>.
+											  </li>
+											</ul>
+										  </li>
+									  
+										<li>
+										  <a href="https://bmcecolevol.biomedcentral.com/articles/10.1186/s12862-017-0898-y?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">
+											Blomberg's K
+										  </a> quantifies how strongly traits are conserved relative to BM expectations. It may also be interpreted as a measure of partitioning trait variance: if K = 1 then trait variation fits BM expectations, if K > 1 then there is greater variation among clades, if K < 1 then there is greater variation within clades.
+										  <ul>
+											<li>
+											  Blomberg's K often results in inflated phylogenetic signal when used with incompletely resolved phylogenies and sub-optimal branch length information <a href="https://www.jstor.org/stable/3094610" target="_blank" rel="noopener noreferrer">
+												(Molina-Venegas et al. 2017)
+											  </a>.
+											</li>
+										  </ul>
+										</li>
+									  </ul>
+									  
+
+								<figure class="image main">
+									<img src="images/signal_methods.png" alt="Differences in phylogenetic signal methods." />
+									<figcaption>
+										Differences in methods used to classify phylogenetic signal <a href="https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2041-210X.2012.00196.x" target="_blank" rel="noopener noreferrer">(Münkemüller et al. 2012)</a>.</figcaption>
+								  </figure>
+									Phylogenetic singal is widely mentioned and/or used in ecology, encompassing 43.2% of publications combining ecology and phylogenetic comparative methods since 2024 (based on a Google Scholar search).</p>
+
+								<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; max-width: 600px;">
+									<thead>
+									  <tr>
+										<th style="background-color: #f2f2f2; color: #000000; font-size: 1em; text-align: center; vertical-align: middle;">
+										  Pros
+										  <th style="background-color: #f2f2f2; color: #000000; font-size: 1em; text-align: center; vertical-align: middle;">
+											<strong style="color: black;">
+												Cons
+											  </strong>
+										  </th>
+									  </tr>
+									</thead>
+									<tbody>
+									  <tr>
+										<td>Helps identify if phylogenetically informed models are needed.</td>
+										<td>Based on BM assumptions.</td>
+									  </tr>
+									  <tr>
+										<td>Can help decide if BM fits the data.</td>
+										<td>Cannot accurately estimate evolutionary rates or processes <a href="https://academic.oup.com/sysbio/article/57/4/591/1631730" target="_blank" rel="noopener noreferrer">(Revell 2008)</a></td>
+									  </tr>
+									  <tr>
+										<td></td>
+										<td>Does not handle categorical traits.</td>
+									  </tr>
+									</tbody>
+								  </table>
+									</p>
+
+
+									<h3>Community Phylogenetics</h3>
+									<p>Just as traits can be more similar than expected by chance (i.e. phylogenetic signal), species in a community can also be more (clustered) or less (overdispersed) closely related than expected by chance. <a href="https://www.annualreviews.org/content/journals/10.1146/annurev.ecolsys.33.010802.150448" target="_blank" rel="noopener noreferrer">Webb et al. 2002</a> first popularized the explicit use of phylogenetics in undrestanding community assemblage and niche structure. Communities that are phylogenetically similar are thought to be shaped by environmental filtering, while competition drives phylogenetically dissimilar assemblages.</p>
+
+									<p>Identifying phylogenetic patterns in communities requires community occurence data, a phylogeny, and a <a href="#building_matrix">phylogenetic covariance matrix </a>. These data are used to inform the net relatedness index of a community which calculates the mean phylogenetic distance (MPD) between all pairs of species in a community weighted by branch lengths. The nearest taxon index is also commonly used and uses the mean phylogenetic distance of each species to its nearest neighbour within a community, but is sensitive to patterns happening at the tips of the phylogeny.</p>
+
+									<p> For a full background please view <a href="https://www.annualreviews.org/content/journals/10.1146/annurev.ecolsys.33.010802.150448" target="_blank" rel="noopener noreferrer">Braga and Hérbert's Community Phylogenetics in R workshop materials</a>.</p>
+
+									<h3 id="limitations">Limitations of the Standard Phylogenetic Workflow for Ecological Inference</h3>
+
+									<h4>Issues with foundational appraoches to implementing phylogenetic insights in ecology: </h4>
+									<p>
+										<ol>
+										<li>Differential diversification can lead to misleading patterns of trait similarity. For example, rapidly diversifying clades might appear more similar  because they have many closely related species, inflating measures of phylogenetic signal <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.0014-3820.2006.tb00517.x" target="_blank" rel="noopener noreferrer">(Madison 2006)</a>.</li>
+										<li> Evolutionary patterns often deviate from Brownian Motion, with different sections of the phylogeny potentially evolving under different models <a href="https://academic.oup.com/sysbio/article/62/5/725/1685276" target="_blank" rel="noopener noreferrer">(Beaulieu 2013)</a>.</li>
+										<li>Evolutionary processes are often inferred from phylogenetic signal. For example, a strong phylogenetic signal is often associated with evolutionary conservatism or a strong selective regime, while a negligable phylogenetic signal is associated with evolutionary liability. However, both processes of strong stabilizing selection and divergent selection can result in low phylogenetic signal, uncorrelated with evolutionary rate <a href="https://www.annualreviews.org/content/journals/10.1146/annurev.ecolsys.33.010802.150448" target="_blank" rel="noopener noreferrer">(Revell et al. 2008)</a>. </li>
+									</ol>
+									</p>
+
+								  </div>
+							  
+								</div>
+							  
+							  </article>
+							  
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Modern Applications</h2>
+								<figure class="image main">
+									<img src="images/evol_rate.png" alt="Rate and strength of evolutionary transitions between growth habit in Campanulid angiosperms." />
+									<figcaption>
+										Rate and strength of evolutionary transitions between growth habit in Campanulid angiosperms <a href="https://academic.oup.com/sysbio/article/62/5/725/1685276" target="_blank" rel="noopener noreferrer">(Beaulieu et al. 2013)</a>.</figcaption>
+								  </figure>
+								<p>Foundational phylogenetic comparative methods such as phylogenetic signal and independent contrasts are used to assess how shared history affects continuous trait relationships. While these methods describe phylogenetic patterns in traits and community structure, they are incapable or estimating evolutionary rates and processes, both important to understanding species' adaptive capacity, extinction risk, and environmental drivers shaping trait evolution, especially for discrete characters such as <a href="https://academic.oup.com/evolut/article/75/6/1431/6881953" target="_blank" rel="noopener noreferrer">pollination syndromes</a> or <a href="https://academic.oup.com/sysbio/article-abstract/62/5/725/1685276?redirectedFrom=fulltext" target="_blank" rel="noopener noreferrer">growth habit</a>.</p>
+								<p>Modern phylogenetic approaches use different models of trait evolution such as:</p>
+								<ul>
+									<li><strong>Brownian Motion:</strong> Models trait evolution as a random walk process where changes accumulate randomly over time, proportional to branch lengths.</li>
+									<li><strong>Ornstein-Uhlenbeck:</strong> Models trait evolution as a random walk process under stabilizing selection, in which traits evolve toward an optimal value with some strength of pull.</li>
+									<li><strong>Multi-Regime Models:</strong> Model trait evolution across different selective regimes or optima throughout the phylogeny, allowing different clades or branches to evolve under distinct adaptive landscapes and selective pressures.</li>
+								</ul>
+								<p>Fitting ecological data using these approaches allows us to: </p>
+								<ul>
+									<li>Estimate evolutionary rates</li>
+									<li>
+									  Infer selective landscapes by identifying trait optima
+									  <ul>
+										<li>Ex: Slow evolutionary rates, plus strong stabilizing selection in OU models may indicate limited adaptive potential.</li>
+									  </ul>
+									</li>
+									<li>Reveal how shifts in a trait are connected to ecological transitions</li>
+								  </ul>
+
+								<p>Other applications of phylogenetics for ecological insight include models of speciation and extinction which can tell how variation in diversification affects biodiversity through space and time, and how ecological factors influence these processes <a href="https://www.sciencedirect.com/science/article/pii/S0169534713002309#abs0005" target="_blank" rel="noopener noreferrer">(Pyron & Burbrink 2013)</a>. See other suggested ecological applications <a href="https://www.sciencedirect.com/science/article/pii/S0169534713002309#sec0050" target="_blank" rel="noopener noreferrer">here</a> and an example implementation <a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12033" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+								<h2 class = "major">Workshop</h2>
+								<h3> Fitting Multiple Evolutionary Models to Ecological Data</h3>
+								<p>Exploring how mean annual temperature has shaped variation in life form and its implications for a genus of annual vs. perennial angiosperms.</p>
+
+								<h3>Data</h3>
+								<div class="download-container">
+									<a href="files/Antirrhineae-Gorospe_et_al-2020_bio_1_full.csv" download class="lab-button">
+										 Download Trait Data
+									</a>
+									<a href="files/Antirrhineae-Gorospe_et_al-2020_cleaned.tre" download class="lab-button">
+										 Download Tree Data
+									</a>
+								</div>
+								<br>
+
+								<h3>Code</h3>
+								<div class="pdf-container">
+									<iframe src="DemoCode.pdf" width="100%" height="600px" style="border: none;">
+										This browser does not support PDFs. Please download the PDF to view it: 
+										<a href="DemoCode.pdf">Download PDF</a>
+									</iframe>
+								</div> <br>
+
+								<div class="download-container">
+									<a href="DemoCode.zip" download class="lab-button">
+										Download Code
+									</a>
+								</div>
+
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">Resources</h2>
+								<h3 class="major">Textbooks </h3>
+								
+									<h4> Overall Recommended</h4>
+									<ul>
+									<li><a href="https://press.princeton.edu/books/hardcover/9780691157689/phylogenies-in-ecology?srsltid=AfmBOoro62UoKIrXp7qjcUhS2c8T5MCz7MOMqCMe__D53_2qsdeJNA7m" target="_blank" rel="noopener noreferrer">Phylogenies in Ecology: A Guide to Concepts and Methods</a></li> 
+									<li><a href="https://press.princeton.edu/books/hardcover/9780691157689/phylogenies-in-ecology?srsltid=AfmBOoro62UoKIrXp7qjcUhS2c8T5MCz7MOMqCMe__D53_2qsdeJNA7m" target="_blank" rel="noopener noreferrer">Phylogenetic Comparative Methods in R</a></li>
+									<li><a href="https://lukejharmon.github.io/pcm/pdf/phylogeneticComparativeMethods.pdf" target="_blank" rel="noopener noreferrer">Phylogenetic Comparative Methods: Learning from Trees</a></li> 
+							<br>
+
+									<h4>Functional and Phylogenetic Ecology </h4>
+									<li><a href="https://link.springer.com/book/10.1007/978-1-4614-9542-0" target="_blank" rel="noopener noreferrer">Functional and Phylogenetic Ecology in R</a></li>
+								</ul> 
+								
+
+								<h3 class="major">Articles </h3>
+														
+									<ul>
+									<h4>Phylogenetic Comparative Methods</h4>
+									<li><a href="https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-110411-160331" target="_blank" rel="noopener noreferrer">O'Meara 2012</a></li> 
+									<li> <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-102221-050754#f1" target="_blank" rel="noopener noreferrer">Cornwallis & Griffin 2024</a></li><br>
+									<h4>Phylogenetic Non-Independence</h4>
+									<li><a href="https://www.journals.uchicago.edu/doi/10.1086/284325" target="_blank" rel="noopener noreferrer">Felsenstein 1985</a></li>
+									<li><a href="https://royalsocietypublishing.org/doi/10.1098/rstb.1989.0106" target="_blank" rel="noopener noreferrer">Grafen 1989</a></li>
+									<li><a href="https://link.springer.com/article/10.1007/s12224-015-9228-6" target="_blank" rel="noopener noreferrer">de Bello et al. 2015</a></li>
+									<li><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12533" target="_blank" rel="noopener noreferrer">Cooper et al. 2016</a></li>
+	 								<br>
+
+									<h4>Trait Conservatism</h4>
+									<li> <a href="https://academic.oup.com/sysbio/article-abstract/57/4/591/1631730" target="_blank" rel="noopener noreferrer">Revell et al. 2008</a></li>
+									<li> <a href="https://www.pnas.org/doi/10.1073/pnas.0901635106" target="_blank" rel="noopener noreferrer">Ackerly 2009</a></li>
+									<li> <a href="https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/j.2041-210X.2012.00196.x" target="_blank" rel="noopener noreferrer">Münkemüller et al. 2012</a></li> <br>
+
+									<h4>Community Phylogenetics</h4>
+									<li> <a href="https://www-annualreviews-org.utk.idm.oclc.org/content/journals/10.1146/annurev.ecolsys.33.010802.150448" target="_blank" rel="noopener noreferrer">Webb et al. 2002</a></li>
+									<li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1461-0248.2009.01314.x?casa_token=GCu90eSjtPgAAAAA%3AeaiamVEwsK85C7ABnHXnpGJMLRA5eNSqzMWUm8b1kSYeuLZdLSgRwEWC9nv-Ox6RBjkb-SSvD4MpIA" target="_blank" rel="noopener noreferrer">Cavender-Bares et al. 2009</a></li>
+									<li> <a href="https://onlinelibrary.wiley.com/doi/10.1111/brv.12252" target="_blank" rel="noopener noreferrer">Tucker et al. 2016</a></li>
+									<br>
+
+									<h4>Phylogenetics and Ecology</h4>
+									<li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1469-185X.2012.00224.x" target="_blank" rel="noopener noreferrer">Mouquet et al. 2012</a></li>
+									<li><a href="https://academic.oup.com/evolut/article/75/6/1431/6881953" target="_blank" rel="noopener noreferrer">Rose & Sytsma 2021</a></li>
+								</ul> <br>
+
+								<h3 class="major">Websites and Workshops </h3>
+																
+								<ul>
+
+									<h4>Phylogenetic Comparative Methods</h4>
+									<li><a href="https://pedrohbraga.github.io/PhyloCompMethods-in-R-workshop/PhyloCompMethodsMaterial.html" target="_blank" rel="noopener noreferrer">Phylogenetic Comparative Methods in R</a></li> <br>
+
+									<h4>Phylogenetic Non-Independence</h4>
+									<li><a href="http://www.phytools.org/Cordoba2017/ex/3/PICs.html" target="_blank" rel="noopener noreferrer"><i>Phytools</i> Example</a></li> <br>
+
+									<h4>Community Phylogenetics</h4>
+									<li><a href="https://pedrohbraga.github.io/CommunityPhylogenetics-Workshop/CommunityPhylogenetics-Workshop.html#overview" target="_blank" rel="noopener noreferrer">Community Phylogenetics in R</a></li></ul>
+
+
+								<h3 class="major">R packages </h3>
+																
+										<ul>
+											<li><a href="https://cran.r-project.org/web/packages/caper/vignettes/caper.pdf" target="_blank" rel="noopener noreferrer"><i>caper</i></a></li> 
+											<li><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13534" target="_blank" rel="noopener noreferrer"><i>corHMM</i></a></li> 
+											<li><a href="https://cran.r-project.org/web/packages/OUwie/OUwie.pdf" target="_blank" rel="noopener noreferrer"><i>OUwie</i></a></li> 
+											<li><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14147" target="_blank" rel="noopener noreferrer"><i>phruta</i></a></li> 
+												<li><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.2051" target="_blank" rel="noopener noreferrer"><i>phylosignal</i></a></li> 
+												<li><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210x.2011.00169.x" target="_blank" rel="noopener noreferrer"><i>phytools</i></a></li> 
+												<li><a href="https://academic.oup.com/bioinformatics/article/26/11/1463/203321" target="_blank" rel="noopener noreferrer"><i>picante</i></a></li> 
+
+											
+											</ul><br>
+			
+
+							</article>
+
+				<!-- Contact -->
+				<article id="contact">
+					<h2 class="major">Contact</h2>
+					<form id="contactForm" method="POST" action="https://formspree.io/f/mblkqzrv">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" required />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="email" name="_replyto" id="email" required />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4" required></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+
+					<!-- Success Message -->
+					<div id="thankYouMessage" style="display:none; background:#d4edda; color:#155724; padding:15px; margin-top:15px; border-radius:5px; position:relative;">
+						<strong style="color:#155724;">Thanks!</strong> Your message has been sent.
+						<span id="closeMessage" style="position:absolute; right:10px; top:10px; cursor:pointer;">&times;</span>
+					</div>
+				</article>
+
+				<script>
+				document.getElementById('contactForm').addEventListener('submit', function(e) {
+					e.preventDefault();
+
+					const form = e.target;
+					fetch(form.action, {
+						method: form.method,
+						body: new FormData(form),
+						headers: { 'Accept': 'application/json' }
+					}).then(response => {
+						if (response.ok) {
+							form.reset();
+							document.getElementById('thankYouMessage').style.display = 'block';
+						} else {
+							alert("Oops! There was a problem submitting your form.");
+						}
+					}).catch(() => {
+						alert("Oops! There was a problem submitting your form.");
+					});
+				});
+
+				document.getElementById('closeMessage').addEventListener('click', function() {
+					document.getElementById('thankYouMessage').style.display = 'none';
+				});
+				</script>
+
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Ecological Society of American Annual Meeting 2025. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				function copyCode(button) {
+				  const codeDiv = button.nextElementSibling; // The div after button
+				  const text = codeDiv.innerText || codeDiv.textContent;
+				  navigator.clipboard.writeText(text).then(() => {
+					button.textContent = "Copied!";
+					setTimeout(() => button.textContent = "Copy code", 2000);
+				  });
+				}
+			  </script>
+
+	</body>
+</html>
+
+
+
